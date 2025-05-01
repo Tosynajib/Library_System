@@ -26,11 +26,9 @@ public class BorrowRecord {
 
     public BorrowRecord() {}
 
-    public BorrowRecord(Book book, User user, LocalDateTime borrowDate, LocalDateTime returnDate, BorrowStatus status) {
         this.book = book;
         this.user = user;
         this.borrowDate = borrowDate;
-        this.returnDate = returnDate;
         this.status = status;
     }
 
